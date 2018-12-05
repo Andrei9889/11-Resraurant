@@ -1,0 +1,433 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif; 
+	font-weight: 400;     		/*light */
+}
+
+/* 			font-family: 'Gentium Book Basic', serif;
+			font-family: 'Yeseva One', cursive;
+			font-family: 'Lato', sans-serif;
+			font-family: 'Open Sans', sans-serif; 
+*/
+
+
+h2.title{
+	font-size: 36px;
+	font-family: 'Yeseva One', cursive;
+}
+
+.darkness{
+	background-color: rgba(0,0,0,.67);
+}
+
+/* =================================== */
+
+header{
+	background: url(..//img/bg-header.png) no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 750px;
+}
+
+.nav{
+	height: 110px;
+}
+
+.nav__meny{
+	list-style:none;
+	padding: 0;
+	margin: 0;
+}
+
+.nav__meny li{
+	margin-right: 50px;
+}
+
+.nav__meny li:last-child{
+	margin-right: 0;
+}
+
+.nav__meny li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 21px;
+	font-family: 'Gentium Book Basic', serif;
+	transition: .2s;
+}
+
+.nav__meny li a:hover{
+	color: #FFF1C6;
+}
+
+.nav__social a{
+	padding: 0 4%;
+}
+
+.fa-twitter,
+.fa-youtube,
+.fa-facebook-f{
+	color: #dab33e;
+	transition: .2s;
+}
+
+.fa-facebook-f{
+	margin-right: 0;
+}
+
+.fa-twitter:hover{
+	color: #FFF1C6;
+}
+
+.fa-youtube:hover{
+	color: #FFF1C6;
+}
+
+.fa-facebook-f:hover{
+	color: #FFF1C6;
+}
+
+.header-title{
+	margin-top: 120px;
+	text-align: center;
+	font-size: 90px;
+	font-family: 'Yeseva One', cursive;
+	color: #fff;
+}
+
+.header-decor{
+	text-align: center;
+	margin-top: 34px;
+}
+
+.header-btns{
+	text-align: center;
+	margin-top: 34px;
+}
+.header-book-btn{
+	border: 1px solid #000000;
+	background-color: rgba(0,0,0,.55);
+}
+
+.header-meny-btn{
+	border: 1px solid #ffffff;
+	background-color: rgba(255,255,255,.3);
+}
+
+.header-btn{
+	display: inline-block;
+	width: 228px;
+	height: 57px;
+	font-size: 18px;
+	line-height: 57px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	margin: 0 15px;
+	text-transform: uppercase;
+	transition: .2s;
+}
+
+.header-btn:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+.header-book-btn:hover {
+	background-color: rgba(0,0,0,.7);
+}
+
+.header-meny-btn:hover {
+	background-color: rgba(255,255,255,.1);
+}
+
+/* ============  dection About  ============ */
+
+.section-about{
+	background: url(..//img/bg-about.png) no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 55px 0 30px 0;
+}
+
+.about-title{
+	color: #CC9900;
+	margin-bottom: 15px;
+	margin-top: 51px;
+}
+
+.about-decor{
+	margin-bottom: 32px;
+}
+
+.about-desc{
+	color: #4c4c4c;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 52px;
+}
+
+/* ============  dection ingredients  ============ */
+
+.section-ingredients{
+	background: url(..//img/ingredients-bg.png) no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 100px 0;
+}
+
+.ingredients-title{
+	color: #fff;
+	margin-top: 83px;
+}
+
+.ingredients-decor{
+	margin-top: 16px;
+}
+
+.ingredients-desc{
+	color: #fff;
+	margin-top: 30px;
+	line-height: 24px;
+}
+
+.ingredients-imgs img{
+	border-radius: 50%;
+	margin: 50px 15px 75px 15px;
+}
+
+/* ============  section menu  ============ */
+
+.section-menu{
+	background: url(..//img/menu-bg.png) no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 100px 0 0 0;
+}
+
+.menu-part{
+	margin-bottom: 58px;
+}
+
+.menu-title{
+	color: #cc9900;
+	font-family: 'Yeseva One', cursive;
+}
+
+.menu-decor{
+	margin-top: 16px;
+	margin-bottom: 22px;
+}
+
+.menu-part__content{
+	margin: 0 auto;
+	width: 455px;
+	padding: 8px 12px 12px 12px;
+	position: relative;
+	margin-bottom: 4px;
+}
+
+.dish-name,
+.dish-price{
+	color: #c89f2d;
+	font-family: 'Yeseva One', cursive;
+	font-size: 21px;
+	margin-bottom: 13px;
+}
+
+.menu-position::after{
+	content: "";
+	display: block;
+	width: 93.5%;
+	height: 1px;
+	background-color: rgba(200, 159, 45, .4);
+	margin: 0 auto 14px auto;
+}
+
+.menu-desc{
+	color: #4c4c4c;
+	margin-bottom: 0;
+}
+
+.menu-part-salads .menu-part__content:nth-child(4) {
+	border: 1px solid rgba(200, 159, 45, .4);
+}
+
+.menu-part-maindishes .menu-part__content:nth-child(4) {
+	border: 1px solid rgba(200, 159, 45, .4);
+}
+
+.special{
+	color: #fff;
+	width: 69px;
+	height: 19px;
+	line-height: 19px;
+	font-size: 14px;
+	background-color: rgba(200, 159, 45, .8);
+	position: absolute;
+	right: -1px;
+	top: -20px;
+}
+
+/* ============  section reviews  ============ */
+
+.section-reviews{
+	background: url(..//img/Reviews-bg.png) no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 100px 0;
+	color: #fff;
+}
+
+.reviews-title{
+	margin-bottom: 23px;
+}
+
+.reviews-decor{
+	margin-bottom: 30px;
+}
+
+.reviews-desc{
+	font-size: 25px;
+	line-height: 45px;
+	margin-bottom: 45px;
+	font-family: 'Gentium Book Basic', serif;
+}
+
+.section-reviews div.darkness{
+	padding: 82px 74px 102px 74px;
+}
+
+.reviews-inc{
+	font-size: 18px;
+	margin: 0 auto;
+}
+
+/* ============  section reservation  ============ */
+
+.section-reservation{
+	background: url(..//img/reservation-bg.png) no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 100px 0;
+}
+
+.reservation__img:first-child{
+	transform: translateX(-15px);
+}
+
+.reservation-title{
+	color: #cc9900;
+	margin-bottom: 15px;
+}
+
+.reservation-decor{
+	margin-bottom: 32px;
+}
+
+.reservation-desc{
+	color: #4c4c4c;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 15px;
+}
+
+.reservation-content{
+	padding: 0 65px;
+}
+
+.reservation__input-name{
+	margin-bottom: 6px;
+	color: #c9a131;
+	font-weight: 700;
+}
+
+.reservation__input{
+	margin-bottom: 20px;
+	height: 36px;
+	padding-left: 14px;
+	font-style: italic;
+}
+.reservation__input:focus { 
+    outline-color: #c39e4c;
+}
+
+.reservation-btn{
+	display: block;
+	width: 200px;
+	height: 36px;
+	font-size: 18px;
+	line-height: 36px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	margin: 0 15px;
+	border: 1px solid #ffffff;
+	background-color: #c89f2d;
+	margin: 0 auto;
+	transition: .2s;
+}
+
+.reservation-btn:hover{
+	text-decoration: none;
+	color: #fff;
+	background-color: #EEC244;
+}
+
+select{
+	font-style: italic;
+}
+
+/* ============  section footer  ============ */
+
+footer{
+	background-color: #191919;
+	padding: 50px 0;
+	color: #fefefe;
+}
+
+h2.footer-title{
+	font-size: 21px;
+	margin-bottom: 21px;
+}
+
+.footer-decor{
+	margin-bottom: 23px;
+}
+
+.footer-desc{
+	line-height: 24px;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif; 
+}
+
+.footer-span{
+	font-weight: 700;
+}
+
+.footer-pay a,
+.footer-social a{
+	text-decoration: none;
+	padding: 6px;
+}
+
+.footer-pay a:hover,
+.footer-social a:hover{
+	text-decoration: none;
+}
+
+.footer-pay .fa-cc-visa,
+.footer-social .fa-twitter,
+.footer-social .fa-youtube,
+.footer-social .fa-facebook-f{
+	color: #fefefe;
+	transition: .2s;
+}
+
+.footer-pay .fa-cc-visa:hover,
+.footer-social .fa-twitter:hover,
+.footer-social .fa-youtube:hover,
+.footer-social .fa-facebook-f:hover{
+	color: #c89f2d;
+}
